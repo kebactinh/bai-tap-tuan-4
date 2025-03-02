@@ -1,6 +1,7 @@
 package bai3;
 
 public class PartTime extends Contract {
+
 	@Override
 	public double calculateSalary() {
 		return 0;

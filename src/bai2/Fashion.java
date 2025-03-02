@@ -1,8 +1,9 @@
 package bai2;
 
 public class Fashion extends Product {
-	private boolean isNewSeason;
 	private final double DISCOUNT = 1.1;
+
+	private boolean isNewSeason;
 
 	public Fashion(double price, boolean isNewSeason) {
 		super(price);
