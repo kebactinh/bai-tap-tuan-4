@@ -1,10 +1,12 @@
 package bai3;
 
 public class NullConstract extends Contract {
+	private final double DEFAULT_NULL_SALARY = 0;
 
 	@Override
 	public double calculateSalary() {
-		return 0;
+		// Do nothing
+		return DEFAULT_NULL_SALARY;
 	}
 
 	@Override

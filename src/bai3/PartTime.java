@@ -1,14 +1,10 @@
 package bai3;
 
 public class PartTime extends Contract {
+	private final double DEFAULT_PART_TIME_SALARY = 2;
 
 	@Override
 	public double calculateSalary() {
-		return 0;
-	}
-
-	@Override
-	public boolean isNull() {
-		return false;
+		return DEFAULT_PART_TIME_SALARY;
 	}
 }
